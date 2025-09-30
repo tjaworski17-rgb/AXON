@@ -1,0 +1,35 @@
+{
+  "name": "axon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjaworski17-rgb/AXON.git"
+  },
+  "keywords": ["next.js", "react", "axon", "ai", "automation", "supabase", "deepgram"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjaworski17-rgb/AXON/issues"
+  },
+  "homepage": "https://github.com/tjaworski17-rgb/AXON#readme",
+  "description": "Axon - AI/Automation Consultant Platform with Supabase and Deepgram integration",
+  "dependencies": {
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@supabase/supabase-js": "^2.45.4",
+    "lucide-react": "^0.263.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.2"
+  }
+}
